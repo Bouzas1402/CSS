@@ -1,0 +1,32 @@
+h1 {
+    color: red;
+    font-family: Arial;
+    font-size: large;
+    }
+    p {
+    color: gray;
+    font-family: Verdana;
+    font-size: medium;
+    }
+    #estilo1 {
+        line-height: 20px;
+        text-indent: 10mm;
+        color: rgb(145, 100, 100);
+    }
+#estilo1::first-letter {
+    font-size: 3em;
+    color: green;
+}
+.estilo2 {
+font-family: cursive;
+}
+* {
+font-weight: bold;
+}
+.estilo3 {
+    color: rgb(17, 154, 172);
+    font-family: sans-serif;
+}
+h1.estilo2::first-letter{
+    font-size: 40px;
+}
